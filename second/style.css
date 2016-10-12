@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  border: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.red {
+  background-color: #D0021B;
+}
+
+.blue {
+  background-color: #4A90E2;
+}
+
+.grey {
+  background-color: #4A4A4A;
+}
+
+main {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  /*padding: 5px;*/
+}
+
+.top-box {
+  height: 30vh;
+  width: 90vw;
+  margin: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer {
+  height: 10vh;
+  width: 100vw;
+  /*margin-bottom: 20px;*/
+  /*display: flex;
+  justify-content: space-between;*/
+}
+
+.logo {
+  color: white;
+  float: right;
+}
