@@ -20,7 +20,19 @@ html {
 }
 
 /*HEADER*/
+header {
+  height: 9vh;
+  width: 100vw;
+  padding-left: 80vw;
+  padding-right: 5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.logo {
+  color: white;
+}
 
 main {
   padding: 2% 5%;
@@ -68,8 +80,4 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.logo {
-  color: white;
 }
