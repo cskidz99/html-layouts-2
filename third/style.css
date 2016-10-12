@@ -19,12 +19,16 @@ html {
   background-color: #4A4A4A;
 }
 
+.light-grey {
+  background-color: lightgrey;
+}
+
 /*HEADER*/
 header {
   height: 9vh;
   width: 100vw;
-  padding-left: 80vw;
-  padding-right: 5vw;
+  padding-left: 5vw;
+  padding-right: 80vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,44 +38,46 @@ header {
   color: white;
 }
 
+/*MAIN*/
 main {
-  padding: 2% 5%;
-  background-color: lightgrey;
+  padding: 7% 5%;
+  background-color: white;
+  min-height: 82vh;
 }
 
-.top-box {
-  width: 90vw;
-  background-color: white;
-  padding: 4%;
-  margin-bottom: 2%;
+/*LEFT COLUMN*/
+.left-col {
+  float: left;
+  display: inline-block;
+  width: 50%;
+  padding-right: 10px;
+}
+
+/*TITLE*/
+h1 {
+  font-size: 32pt;
+  margin-bottom: 20px;
 }
 
 .par {
+  margin-bottom: 20px;
 }
 
-.button {
-  color: white;
-  display: inline-flex;
-  padding: 10px 20px;
-  margin: 2% 2% 0% 0%;
-}
-
-.bottom-box {
-  /*height: 60vh;*/
-  width: 90vw;
-  background-color: white;
-  padding: 4%;
+/*RIGHT COLUMN*/
+.right-col {
+  float: left;
+  display: inline-block;
+  width: 50%;
+  padding-left: 10px;
 }
 
 .image-box {
   color: white;
   height: 40vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 5%;
+  margin-bottom: 20px;
 }
 
+/*FOOTER*/
 footer {
   height: 9vh;
   width: 100vw;
